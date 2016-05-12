@@ -21,12 +21,12 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/BoliWebView"
+  s.homepage         = "https://github.com/bolivarbryan/BoliWebView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Bryan" => "bolivarbryan@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/BoliWebView.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/bolivarbryan/BoliWebView", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/Bryan_Bolivar'
 
   s.ios.deployment_target = '8.0'
 

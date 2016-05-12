@@ -1,0 +1,6 @@
+framework module BoliWebView {
+  umbrella header "BoliWebView-umbrella.h"
+
+  export *
+  module * { export * }
+}

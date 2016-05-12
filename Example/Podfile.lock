@@ -1,0 +1,16 @@
+PODS:
+  - BoliWebView (0.1.0)
+
+DEPENDENCIES:
+  - BoliWebView (from `../`)
+
+EXTERNAL SOURCES:
+  BoliWebView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BoliWebView: aaaa0839336f7b38550433b72bcc6b6226975380
+
+PODFILE CHECKSUM: 36ac6483637c74941598e9520dbd7faa0949508d
+
+COCOAPODS: 1.0.0

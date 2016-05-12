@@ -1,0 +1,6 @@
+framework module Pods_BoliWebView_Example {
+  umbrella header "Pods-BoliWebView_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

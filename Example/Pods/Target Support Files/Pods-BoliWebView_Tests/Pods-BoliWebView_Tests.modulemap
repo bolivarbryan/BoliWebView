@@ -1,0 +1,6 @@
+framework module Pods_BoliWebView_Tests {
+  umbrella header "Pods-BoliWebView_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
