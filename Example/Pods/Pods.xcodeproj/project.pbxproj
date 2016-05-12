@@ -7,16 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00B4D5CE53ADA3ACA22A8A4C1BC44095 /* BoliWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F35EE7DBDF25BACDB7C5F56A65FCC86 /* BoliWebView.swift */; };
 		0AF844CCA6D46A9801297296CE94E95F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		13AF56D2F483C685303B808E1303CE2C /* Pods-BoliWebView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEB2E838F7140231E1A855A59C9146A /* Pods-BoliWebView_Example-dummy.m */; };
 		19F05BB63B276BC0C4241D9701C00C20 /* Pods-BoliWebView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C569CBB21E5E6D377C1BE7EC04A5104 /* Pods-BoliWebView_Tests-dummy.m */; };
 		24B50822991C31018BD9B0A640B54CB4 /* BoliWebView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A959634AE4C17E8CE8A84AC7086DDE24 /* BoliWebView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		434F6EF541703EE75CC09F885EA9D26E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8086EA6FEDD740537F6809CBE00A3DC8 /* ReplaceMe.swift */; };
 		7588B46318FA633CCD8E56C988128622 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		7A7659E029E25E3C6BE167F49553AC5F /* BoliWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCD31BC090345DD1C817EFCAF9F7490 /* BoliWebView-dummy.m */; };
 		7FD0FABEE139AA4713B90A3AD4688D1E /* Pods-BoliWebView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E8B93B1BB848EDCEDF6C5FC07BC1F2D9 /* Pods-BoliWebView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A2031AFFC9528C0B91F6A01632E4C231 /* Pods-BoliWebView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BCDADB0892441F932D0324982778DD8 /* Pods-BoliWebView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C5681D68681FFBEC8E1191E7A26EFDAE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		DABD1B0E5A3EDAC117C79EE1CBDF9E99 /* BoliWebView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDCD31BC090345DD1C817EFCAF9F7490 /* BoliWebView-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,9 @@
 		4BCDADB0892441F932D0324982778DD8 /* Pods-BoliWebView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BoliWebView_Example-umbrella.h"; sourceTree = "<group>"; };
 		588787FA55D97FE61330D0C3ADA032A7 /* Pods-BoliWebView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoliWebView_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		751E873054422B47102E0CCFB5EC8F7D /* Pods-BoliWebView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BoliWebView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8086EA6FEDD740537F6809CBE00A3DC8 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
 		86BC5499044D467A397A67271ACF5498 /* Pods-BoliWebView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BoliWebView_Example-resources.sh"; sourceTree = "<group>"; };
 		8ED927237CC99016FE19D8F876D3919B /* BoliWebView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = BoliWebView.xcconfig; sourceTree = "<group>"; };
+		8F35EE7DBDF25BACDB7C5F56A65FCC86 /* BoliWebView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = BoliWebView.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9579528E68A1E80E0CCCA4AA50931A9C /* Pods-BoliWebView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BoliWebView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		9EA73F76680EB03EC130DEC1AD2F4471 /* BoliWebView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = BoliWebView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -117,6 +117,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		4DE5A74DE17E1B9D971783279FD3FB40 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				8F35EE7DBDF25BACDB7C5F56A65FCC86 /* BoliWebView.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
 		6A422A7D2C73EB97F989A12B02C43E8E /* Pods-BoliWebView_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -144,14 +152,6 @@
 				CA9D388662FF8EB04EFE4F32FBDCD7F3 /* Products */,
 				05DC54F363C2BEC7DE05B30FFDC95FC9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		90FCC31559C4D561FD6E6C1A5F8BE88A /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8086EA6FEDD740537F6809CBE00A3DC8 /* ReplaceMe.swift */,
-			);
-			path = Classes;
 			sourceTree = "<group>";
 		};
 		A03DFEAB11100036CB735882E85D673F /* Support Files */ = {
@@ -207,7 +207,7 @@
 		C71DF2E1C9C0062C6C9A3C55F06B2302 /* BoliWebView */ = {
 			isa = PBXGroup;
 			children = (
-				90FCC31559C4D561FD6E6C1A5F8BE88A /* Classes */,
+				4DE5A74DE17E1B9D971783279FD3FB40 /* Classes */,
 			);
 			path = BoliWebView;
 			sourceTree = "<group>";
@@ -291,7 +291,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D684CD3762152455E1021410F6F51F4 /* Build configuration list for PBXNativeTarget "BoliWebView" */;
 			buildPhases = (
-				6B9A23E0EE17BE34C1DCCF1A347E3648 /* Sources */,
+				3DAF42BA1063D9360D6489A5B7853E4F /* Sources */,
 				AB27BB81178D570C83F1A11DABE39DE8 /* Frameworks */,
 				5B8508E1626D8113C49D911EAD6BDE6E /* Headers */,
 			);
@@ -341,12 +341,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		6B9A23E0EE17BE34C1DCCF1A347E3648 /* Sources */ = {
+		3DAF42BA1063D9360D6489A5B7853E4F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A7659E029E25E3C6BE167F49553AC5F /* BoliWebView-dummy.m in Sources */,
-				434F6EF541703EE75CC09F885EA9D26E /* ReplaceMe.swift in Sources */,
+				DABD1B0E5A3EDAC117C79EE1CBDF9E99 /* BoliWebView-dummy.m in Sources */,
+				00B4D5CE53ADA3ACA22A8A4C1BC44095 /* BoliWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

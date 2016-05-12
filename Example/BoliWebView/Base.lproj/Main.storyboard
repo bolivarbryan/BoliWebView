@@ -1,25 +1,133 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="X8H-fq-6T3">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
-                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="BoliWebView_Example" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
                         <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="64" width="600" height="487"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eG0-j1-SCS" customClass="BoliWebView" customModule="BoliWebView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="url" value="http://www.google.com"/>
+                                </userDefinedRuntimeAttributes>
+                            </webView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="eG0-j1-SCS" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" id="6tj-mF-Iw0"/>
+                            <constraint firstAttribute="trailing" secondItem="eG0-j1-SCS" secondAttribute="trailing" id="B7T-LY-88V"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="eG0-j1-SCS" secondAttribute="bottom" id="SRK-Nc-pUo"/>
+                            <constraint firstItem="eG0-j1-SCS" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" id="oxD-YJ-LNv"/>
+                        </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="95F-LH-1MY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="2224" y="537"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="ocK-Jt-8t2">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="dZ9-Oe-sSu" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="TX5-eC-YeY"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Lw8-m8-Asd">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="relationship" relationship="rootViewController" id="cTq-Yx-uoB"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9xG-so-c1a" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="537"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="4z0-hq-D3x">
+            <objects>
+                <tabBarController automaticallyAdjustsScrollViewInsets="NO" id="X8H-fq-6T3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="rk8-E8-Ium">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="dZ9-Oe-sSu" kind="relationship" relationship="viewControllers" id="F1Q-14-56B"/>
+                        <segue destination="wwf-Pv-jXA" kind="relationship" relationship="viewControllers" id="GQm-Ar-r9E"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jPa-BV-YuK" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="600" y="537"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="mXN-ll-iw2">
+            <objects>
+                <viewController id="bDy-Aw-aeV" customClass="ViewController" customModule="BoliWebView_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Vs8-p2-eQD"/>
+                        <viewControllerLayoutGuide type="bottom" id="9fw-GW-R5L"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="h89-sr-lBL">
+                        <rect key="frame" x="0.0" y="64" width="600" height="487"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <webView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nrJ-lh-Bik" customClass="BoliWebView" customModule="BoliWebView">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="487"/>
+                                <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="deviceRGB"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="string" keyPath="url" value="http://www.youtube.com"/>
+                                </userDefinedRuntimeAttributes>
+                            </webView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="nrJ-lh-Bik" secondAttribute="trailing" id="3ko-OE-tzZ"/>
+                            <constraint firstItem="nrJ-lh-Bik" firstAttribute="top" secondItem="Vs8-p2-eQD" secondAttribute="bottom" id="NAL-kK-zfy"/>
+                            <constraint firstItem="nrJ-lh-Bik" firstAttribute="leading" secondItem="h89-sr-lBL" secondAttribute="leading" id="YoI-ww-FMI"/>
+                            <constraint firstItem="9fw-GW-R5L" firstAttribute="top" secondItem="nrJ-lh-Bik" secondAttribute="bottom" id="qtD-9v-UWs"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="9vj-gm-aCy"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hLC-Td-j8Q" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2224" y="1301"/>
+        </scene>
+        <!--Item-->
+        <scene sceneID="2gn-ha-bQ4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="wwf-Pv-jXA" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="BH3-f5-Uhj"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" translucent="NO" id="Fbs-HK-j22">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="bDy-Aw-aeV" kind="relationship" relationship="rootViewController" id="UyP-hl-Azg"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VXb-fC-F8n" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1412" y="1301"/>
         </scene>
     </scenes>
 </document>
