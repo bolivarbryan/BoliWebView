@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'BoliWebView_Example' do
+  pod 'BoliWebView', :path => '../'
+
+  target 'BoliWebView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
