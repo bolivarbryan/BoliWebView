@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = "BoliWebView"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of BoliWebView."
+  s.version          = "0.0.1"
+  s.summary          = "A little-weight UIWebView that let you insert your url in interface builder"
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,14 +18,14 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+A little-weight UIWebView that let you insert your url in interface builder, just add a UIWebView, rename Class to BoliWebView, now you can put your url. easy.
                        DESC
 
   s.homepage         = "https://github.com/bolivarbryan/BoliWebView"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Bryan" => "bolivarbryan@gmail.com" }
-  s.source           = { :git => "https://github.com/bolivarbryan/BoliWebView", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/bolivarbryan/BoliWebView.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/Bryan_Bolivar'
 
   s.ios.deployment_target = '8.0'
