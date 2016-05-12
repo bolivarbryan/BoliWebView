@@ -21,6 +21,16 @@ it, simply add the following line to your Podfile:
 pod "BoliWebView"
 ```
 
+Don't forget to configure your .plist file for making http requests
+
+```ruby
+<key>NSAppTransportSecurity</key>
+<dict>
+<key>NSAllowsArbitraryLoads</key>
+<true/>
+</dict>
+```
+
 ## Author
 
 Bryan, bolivarbryan@gmail.com
